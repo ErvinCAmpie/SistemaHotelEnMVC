@@ -129,7 +129,7 @@ Generación de reportes administrativos, operativos y financieros.
 
 **Erving Campos**
 
-Desarrollador Full Stack especializado en tecnologías .NET, SQL Server y desarrollo de aplicaciones empresariales.
+
 
 ### Contacto
 
