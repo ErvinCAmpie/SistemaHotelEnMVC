@@ -6,6 +6,8 @@ Sistema web desarrollado para la administración integral de hoteles, permitiend
 
 El objetivo del sistema es optimizar los procesos operativos del hotel, mejorar el control administrativo y facilitar la generación de información para la toma de decisiones.
 
+---
+
 ## Funcionalidades Principales
 
 ### Gestión de Habitaciones
@@ -45,8 +47,10 @@ El objetivo del sistema es optimizar los procesos operativos del hotel, mejorar 
 
 * Inicio de sesión seguro.
 * Gestión de usuarios.
-* Asignación de roles y permisos.
+* Administración de roles y permisos.
 * Auditoría básica de operaciones.
+
+---
 
 ## Tecnologías Utilizadas
 
@@ -59,34 +63,80 @@ El objetivo del sistema es optimizar los procesos operativos del hotel, mejorar 
 * HTML5
 * CSS3
 
+---
+
 ## Arquitectura
 
 El proyecto está desarrollado bajo el patrón MVC (Model-View-Controller), permitiendo una estructura organizada, mantenible y escalable.
 
-## Capturas del Sistema
+### Estructura General
+
+* **Models:** Entidades y acceso a datos.
+* **Views:** Interfaces de usuario.
+* **Controllers:** Lógica de negocio y control de flujo.
+* **Utilidad:** Funciones auxiliares y componentes reutilizables.
+* **SQL Server:** Almacenamiento de información.
+
+---
+
+## Módulos del Sistema
 
 ### Dashboard
 
-![Dashboard](docs/dashboard.png)
+Visualización general de información relevante para la administración del hotel.
+
+![Dashboard](ProyectoHotel/docs/dashboard.png)
 
 ### Gestión de Habitaciones
 
-![Habitaciones](docs/habitaciones.png)
+Administración de habitaciones, estados de ocupación y disponibilidad.
 
-### Inventario
+![Habitaciones](ProyectoHotel/docs/habitaciones.png)
 
-![Inventario](docs/inventario.png)
+### Inventario y Artículos
+
+Control de productos, existencias y movimientos de inventario.
+
+![Inventario](ProyectoHotel/docs/inventario.png)
 
 ### Ventas
 
-![Ventas](docs/ventas.png)
+Registro y control de ventas de productos y servicios.
+
+![Ventas](ProyectoHotel/docs/ventas.png)
 
 ### Reportes
 
-![Reportes](docs/reportes.png)
+Generación de reportes administrativos, operativos y financieros.
+
+![Reportes](ProyectoHotel/docs/reportes.png)
+
+---
+
+## Características Destacadas
+
+* Gestión integral de hoteles.
+* Control de inventario en tiempo real.
+* Administración de huéspedes y habitaciones.
+* Registro de ventas y movimientos.
+* Reportes para la toma de decisiones.
+* Sistema de autenticación y control de usuarios.
+* Interfaz amigable y adaptable.
+
+---
 
 ## Autor
 
-Erving Campos
+**Erving Campos**
 
-Desarrollador Full Stack especializado en .NET, SQL Server y desarrollo de aplicaciones empresariales.
+Desarrollador Full Stack especializado en tecnologías .NET, SQL Server y desarrollo de aplicaciones empresariales.
+
+### Contacto
+
+* GitHub: https://github.com/ErvinCAmpie
+
+---
+
+## Estado del Proyecto
+
+Proyecto funcional desarrollado con fines de aprendizaje, práctica profesional  utilizando ASP.NET MVC y SQL Server.
